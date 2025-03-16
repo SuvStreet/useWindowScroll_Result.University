@@ -11,6 +11,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  height: 5000px;
+  width: 5000px;
 }
 
 a {
@@ -45,6 +48,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+
+  margin: 0.5em;
+}
+button:not(:last-child) {
+  margin-right: 1em;
 }
 button:hover {
   border-color: #646cff;
